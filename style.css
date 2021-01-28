@@ -1,0 +1,148 @@
+/* acme-regular - latin */
+@font-face {
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  src: url('acme/acme-v11-latin-regular.eot');
+  src: local(''),
+       url('acme/acme-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('acme/acme-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('acme/acme-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('acme/acme-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('acme/acme-v11-latin-regular.svg#Acme') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('alata/alata-v2-latin-ext_latin-regular.woff2') format('woff2'),
+       url('alata/alata-v2-latin-ext_latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('alegreya-sans-sc/alegreya-sans-sc-v12-latin-regular.woff2') format('woff2'),
+       url('alegreya-sans-sc/alegreya-sans-sc-v12-latin-regular.woff') format('woff');
+}
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  margin: 0;
+  background: url(hex.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.navflexbox{
+  display: flex;
+  height: 32px;
+  margin:0 auto;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-family:'Alata';
+  list-style: none;
+  background-color: grey;
+  
+}
+.navflexbox:hover{
+  height:32px;
+}
+.navflexbox > li {
+  flex: 0 0 100px;
+  padding-bottom: 20px;
+}
+.navflexbox > li:hover{
+  font-size: 17px;
+  cursor: pointer;
+}
+.logo{
+  font-family: 'Alegreya Sans SC';
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+#brush{
+  background: url('exca.jpg');
+  background-attachment: fixed;
+  background-position:center ;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+
+.transbox{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.mottoflexbox{
+  display: flex;
+  margin-left: 30px;
+  flex-flow: wrap;
+  font-size: 40px;
+  border-left:20px solid rgba(20, 20, 65, 0.623);
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 150px;
+  font-weight: bold;
+  color:#000000;
+}
+.mottoflexbox > p{
+  margin: 0;
+}
+.p1font{
+  font-family: 'Alata';
+}
+.p2font{
+    font-family:'Alegreya Sans SC';
+}
+section{
+  display: flex;
+  font-family:'Alata' ;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 4px outset #3b1f3b;
+  font-weight: bold;
+  color:black;
+}
+.article1{
+flex-grow: 1;
+max-width:637.500px;
+height: 300px;
+}
+.article2{
+flex-grow: 1;
+width: 637.500px;
+}
+#more {
+  display: none;
+}
+#more2{
+  display:none;
+}
+b:hover{
+  cursor: pointer;
+  color: brown;
+}
+footer{
+  text-align: center;
+  font-family: 'Acme';
+  color: white;
+  background-color: rgba(20, 20, 37, 0.767) ;
+}
+legend + ul{
+  list-style-type: none;
+}
+.central{
+  margin:0 500px;
+}
